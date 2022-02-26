@@ -6,7 +6,7 @@ import pandas as pd
 
 desired_path = ""
 base_url = "https://airbnb.de"
-search_url = "https://www.airbnb.de/s/Potsdam/homes?date_picker_type=calendar&query=Potsdam&place_id=ChIJt9Y6hM31qEcRm-yqC5j4ZcU&refinement_paths%5B%5D=%2Fhomes&tab_id=home_tab&flexible_trip_lengths%5B%5D=one_week&adults=1&source=structured_search_input_header&search_type=filter_change&checkin=2022-05-08&checkout=2022-05-15"
+search_url = "https://www.airbnb.de/s/Bayreuth/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=april&flexible_trip_dates%5B%5D=march&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&query=Bayreuth&place_id=ChIJGQMtqMWioUcRNOfR0gnfhto&checkin=2022-03-12&checkout=2022-03-19&adults=2&source=structured_search_input_header&search_type=autocomplete_click"
 
 options = Options()
 options.add_argument('--blink-settings=imagesEnabled=false')
